@@ -7,6 +7,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Hermes.ttf">
+            <string>EgonW01-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="T5s-0O-weS">
@@ -15,7 +20,10 @@
                     <items>
                         <group width="1" alignment="left" spacing="0.0" id="r4w-8v-T2Z">
                             <items>
-                                <spriteKitScene width="184" height="224" alignment="center" preferredFramesPerSecond="60" scene="FaceScene.sks" id="Vbc-Dd-smI"/>
+                                <label alignment="left" text="Label" id="jwl-mB-7qx">
+                                    <fontDescription key="font" name="EgonW01-Regular" family="EgonW01-Regular" pointSize="0.0"/>
+                                </label>
+                                <spriteKitScene width="187" height="224" alignment="center" preferredFramesPerSecond="60" scene="FaceScene.sks" id="Vbc-Dd-smI"/>
                             </items>
                             <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
                         </group>

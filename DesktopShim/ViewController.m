@@ -14,7 +14,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	[[NSUserDefaults standardUserDefaults] registerDefaults:@{@"Theme":@(ThemeMarques)}];
+	[[NSUserDefaults standardUserDefaults] registerDefaults:@{@"Theme":@(0)}];
 
     FaceScene *scene = [FaceScene nodeWithFileNamed:@"FaceScene"];
 	
@@ -23,5 +23,6 @@
 
     [self.skView presentScene:scene];
 }
+
 
 @end
