@@ -3,35 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		962241A4218595B200DEA420 /* Hermes.otf in Resources */ = {isa = PBXBuildFile; fileRef = 962241A2218595B100DEA420 /* Hermes.otf */; };
-		962241A5218595B200DEA420 /* happykiller.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 962241A3218595B100DEA420 /* happykiller.ttf */; };
 		B0D30AD5216D5B2500444765 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30AD4216D5B2500444765 /* AppDelegate.m */; };
 		B0D30AD8216D5B2500444765 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30AD7216D5B2500444765 /* ViewController.m */; };
 		B0D30ADB216D5B2500444765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D30AD9216D5B2500444765 /* Main.storyboard */; };
-		B0D30ADD216D5B2700444765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30ADC216D5B2700444765 /* Assets.xcassets */; };
+		B0D30ADD216D5B2700444765 /* MobileAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30ADC216D5B2700444765 /* MobileAssets.xcassets */; };
 		B0D30AE0216D5B2700444765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D30ADE216D5B2700444765 /* LaunchScreen.storyboard */; };
 		B0D30AE3216D5B2700444765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30AE2216D5B2700444765 /* main.m */; };
 		B0D30AE7216D5B2700444765 /* SpriteKitWatchFace WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B0D30AE6216D5B2700444765 /* SpriteKitWatchFace WatchKit App.app */; };
 		B0D30AED216D5B2700444765 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D30AEB216D5B2700444765 /* Interface.storyboard */; };
-		B0D30AEF216D5B2700444765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30AEE216D5B2700444765 /* Assets.xcassets */; };
+		B0D30AEF216D5B2700444765 /* NanoIconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30AEE216D5B2700444765 /* NanoIconAssets.xcassets */; };
 		B0D30AF6216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0D30AF5216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B0D30AFC216D5B2700444765 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30AFB216D5B2700444765 /* InterfaceController.m */; };
 		B0D30AFF216D5B2700444765 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30AFE216D5B2700444765 /* ExtensionDelegate.m */; };
-		B0D30B01216D5B2800444765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30B00216D5B2800444765 /* Assets.xcassets */; };
+		B0D30B01216D5B2800444765 /* NanoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30B00216D5B2800444765 /* NanoAssets.xcassets */; };
 		B0D30B14216D5C6A00444765 /* FaceScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0D30B13216D5C6A00444765 /* FaceScene.sks */; };
+		B0D4F2B72172164B00F497E0 /* FaceWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D4F2B62172164B00F497E0 /* FaceWindow.m */; };
+		B0DEB03C2172C64E0087FA94 /* FaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB7306216E6C380098CF27 /* FaceScene.m */; };
+		B0DEB03D2172C6E00087FA94 /* FaceScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0D30B13216D5C6A00444765 /* FaceScene.sks */; };
+		B0DEB03E2172C6E50087FA94 /* NanoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30B00216D5B2800444765 /* NanoAssets.xcassets */; };
 		B0EB72EC216E69AA0098CF27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB72EB216E69AA0098CF27 /* AppDelegate.m */; };
 		B0EB72F6216E69AA0098CF27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB72F5216E69AA0098CF27 /* ViewController.m */; };
-		B0EB72F8216E69AB0098CF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EB72F7216E69AB0098CF27 /* Assets.xcassets */; };
+		B0EB72F8216E69AB0098CF27 /* DesktopAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EB72F7216E69AB0098CF27 /* DesktopAssets.xcassets */; };
 		B0EB72FB216E69AB0098CF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EB72F9216E69AB0098CF27 /* Main.storyboard */; };
 		B0EB72FE216E69AB0098CF27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB72FD216E69AB0098CF27 /* main.m */; };
 		B0EB7303216E69C00098CF27 /* FaceScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0D30B13216D5C6A00444765 /* FaceScene.sks */; };
-		B0EB7304216E69C40098CF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30B00216D5B2800444765 /* Assets.xcassets */; };
+		B0EB7304216E69C40098CF27 /* NanoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D30B00216D5B2800444765 /* NanoAssets.xcassets */; };
 		B0EB7307216E6C380098CF27 /* FaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB7306216E6C380098CF27 /* FaceScene.m */; };
 		B0EB7308216E6C380098CF27 /* FaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EB7306216E6C380098CF27 /* FaceScene.m */; };
+		B0F66DD72173727500058F22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0F66DDB2173727500058F22 /* InfoPlist.strings */; };
+		B0F66DD82173727500058F22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0F66DDB2173727500058F22 /* InfoPlist.strings */; };
+		B0F66DD92173727500058F22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0F66DDB2173727500058F22 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,43 +82,44 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		962241A2218595B100DEA420 /* Hermes.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hermes.otf; sourceTree = "<group>"; };
-		962241A3218595B100DEA420 /* happykiller.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = happykiller.ttf; sourceTree = "<group>"; };
 		B0D30AD0216D5B2500444765 /* SpriteKitWatchFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitWatchFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D30AD3216D5B2500444765 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0D30AD4216D5B2500444765 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B0D30AD6216D5B2500444765 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B0D30AD7216D5B2500444765 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B0D30ADA216D5B2500444765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B0D30ADC216D5B2700444765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0D30ADC216D5B2700444765 /* MobileAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MobileAssets.xcassets; sourceTree = "<group>"; };
 		B0D30ADF216D5B2700444765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0D30AE1216D5B2700444765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D30AE2216D5B2700444765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0D30AE6216D5B2700444765 /* SpriteKitWatchFace WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKitWatchFace WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D30AEC216D5B2700444765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		B0D30AEE216D5B2700444765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0D30AEE216D5B2700444765 /* NanoIconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NanoIconAssets.xcassets; sourceTree = "<group>"; };
 		B0D30AF0216D5B2700444765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D30AF5216D5B2700444765 /* SpriteKitWatchFace WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SpriteKitWatchFace WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D30AFA216D5B2700444765 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
 		B0D30AFB216D5B2700444765 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
 		B0D30AFD216D5B2700444765 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
 		B0D30AFE216D5B2700444765 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
-		B0D30B00216D5B2800444765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0D30B00216D5B2800444765 /* NanoAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NanoAssets.xcassets; sourceTree = "<group>"; };
 		B0D30B02216D5B2800444765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D30B13216D5C6A00444765 /* FaceScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FaceScene.sks; sourceTree = "<group>"; };
+		B0D4F2B52172164B00F497E0 /* FaceWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceWindow.h; sourceTree = "<group>"; };
+		B0D4F2B62172164B00F497E0 /* FaceWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceWindow.m; sourceTree = "<group>"; };
 		B0EB72E3216E3C350098CF27 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B0EB72E8216E69AA0098CF27 /* DesktopShim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesktopShim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EB72EA216E69AA0098CF27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0EB72EB216E69AA0098CF27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B0EB72F4216E69AA0098CF27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B0EB72F5216E69AA0098CF27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B0EB72F7216E69AB0098CF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0EB72F7216E69AB0098CF27 /* DesktopAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DesktopAssets.xcassets; sourceTree = "<group>"; };
 		B0EB72FA216E69AB0098CF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0EB72FC216E69AB0098CF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0EB72FD216E69AB0098CF27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0EB72FF216E69AB0098CF27 /* DesktopShim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesktopShim.entitlements; sourceTree = "<group>"; };
 		B0EB7305216E6C380098CF27 /* FaceScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceScene.h; sourceTree = "<group>"; };
 		B0EB7306216E6C380098CF27 /* FaceScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceScene.m; sourceTree = "<group>"; };
+		B0F66DDA2173727500058F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,9 +178,10 @@
 				B0D30AD6216D5B2500444765 /* ViewController.h */,
 				B0D30AD7216D5B2500444765 /* ViewController.m */,
 				B0D30AD9216D5B2500444765 /* Main.storyboard */,
-				B0D30ADC216D5B2700444765 /* Assets.xcassets */,
+				B0D30ADC216D5B2700444765 /* MobileAssets.xcassets */,
 				B0D30ADE216D5B2700444765 /* LaunchScreen.storyboard */,
 				B0D30AE1216D5B2700444765 /* Info.plist */,
+				B0F66DDB2173727500058F22 /* InfoPlist.strings */,
 				B0D30AE2216D5B2700444765 /* main.m */,
 			);
 			path = SpriteKitWatchFace;
@@ -184,7 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				B0D30AEB216D5B2700444765 /* Interface.storyboard */,
-				B0D30AEE216D5B2700444765 /* Assets.xcassets */,
+				B0D30AEE216D5B2700444765 /* NanoIconAssets.xcassets */,
 				B0D30AF0216D5B2700444765 /* Info.plist */,
 			);
 			path = "SpriteKitWatchFace WatchKit App";
@@ -195,14 +202,12 @@
 			children = (
 				B0EB7305216E6C380098CF27 /* FaceScene.h */,
 				B0EB7306216E6C380098CF27 /* FaceScene.m */,
-				962241A3218595B100DEA420 /* happykiller.ttf */,
-				962241A2218595B100DEA420 /* Hermes.otf */,
 				B0D30AFA216D5B2700444765 /* InterfaceController.h */,
 				B0D30AFB216D5B2700444765 /* InterfaceController.m */,
 				B0D30AFD216D5B2700444765 /* ExtensionDelegate.h */,
 				B0D30AFE216D5B2700444765 /* ExtensionDelegate.m */,
 				B0D30B13216D5C6A00444765 /* FaceScene.sks */,
-				B0D30B00216D5B2800444765 /* Assets.xcassets */,
+				B0D30B00216D5B2800444765 /* NanoAssets.xcassets */,
 				B0D30B02216D5B2800444765 /* Info.plist */,
 			);
 			path = "SpriteKitWatchFace WatchKit Extension";
@@ -215,7 +220,9 @@
 				B0EB72EB216E69AA0098CF27 /* AppDelegate.m */,
 				B0EB72F4216E69AA0098CF27 /* ViewController.h */,
 				B0EB72F5216E69AA0098CF27 /* ViewController.m */,
-				B0EB72F7216E69AB0098CF27 /* Assets.xcassets */,
+				B0D4F2B52172164B00F497E0 /* FaceWindow.h */,
+				B0D4F2B62172164B00F497E0 /* FaceWindow.m */,
+				B0EB72F7216E69AB0098CF27 /* DesktopAssets.xcassets */,
 				B0EB72F9216E69AB0098CF27 /* Main.storyboard */,
 				B0EB72FC216E69AB0098CF27 /* Info.plist */,
 				B0EB72FD216E69AB0098CF27 /* main.m */,
@@ -324,7 +331,7 @@
 				};
 			};
 			buildConfigurationList = B0D30ACB216D5B2500444765 /* Build configuration list for PBXProject "SpriteKitWatchFace" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -350,8 +357,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D30AE0216D5B2700444765 /* LaunchScreen.storyboard in Resources */,
-				B0D30ADD216D5B2700444765 /* Assets.xcassets in Resources */,
+				B0F66DD72173727500058F22 /* InfoPlist.strings in Resources */,
+				B0DEB03D2172C6E00087FA94 /* FaceScene.sks in Resources */,
+				B0D30ADD216D5B2700444765 /* MobileAssets.xcassets in Resources */,
 				B0D30ADB216D5B2500444765 /* Main.storyboard in Resources */,
+				B0DEB03E2172C6E50087FA94 /* NanoAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +369,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D30AEF216D5B2700444765 /* Assets.xcassets in Resources */,
+				B0D30AEF216D5B2700444765 /* NanoIconAssets.xcassets in Resources */,
+				B0F66DD82173727500058F22 /* InfoPlist.strings in Resources */,
 				B0D30AED216D5B2700444765 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,9 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962241A5218595B200DEA420 /* happykiller.ttf in Resources */,
-				B0D30B01216D5B2800444765 /* Assets.xcassets in Resources */,
-				962241A4218595B200DEA420 /* Hermes.otf in Resources */,
+				B0D30B01216D5B2800444765 /* NanoAssets.xcassets in Resources */,
 				B0D30B14216D5C6A00444765 /* FaceScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,10 +388,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0EB72F8216E69AB0098CF27 /* Assets.xcassets in Resources */,
+				B0EB72F8216E69AB0098CF27 /* DesktopAssets.xcassets in Resources */,
 				B0EB72FB216E69AB0098CF27 /* Main.storyboard in Resources */,
-				B0EB7304216E69C40098CF27 /* Assets.xcassets in Resources */,
+				B0EB7304216E69C40098CF27 /* NanoAssets.xcassets in Resources */,
 				B0EB7303216E69C00098CF27 /* FaceScene.sks in Resources */,
+				B0F66DD92173727500058F22 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +463,7 @@
 				B0D30AD8216D5B2500444765 /* ViewController.m in Sources */,
 				B0D30AE3216D5B2700444765 /* main.m in Sources */,
 				B0D30AD5216D5B2500444765 /* AppDelegate.m in Sources */,
+				B0DEB03C2172C64E0087FA94 /* FaceScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +482,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0EB72F6216E69AA0098CF27 /* ViewController.m in Sources */,
+				B0D4F2B72172164B00F497E0 /* FaceWindow.m in Sources */,
 				B0EB72FE216E69AB0098CF27 /* main.m in Sources */,
 				B0EB72EC216E69AA0098CF27 /* AppDelegate.m in Sources */,
 				B0EB7308216E6C380098CF27 /* FaceScene.m in Sources */,
@@ -523,6 +535,14 @@
 				B0EB72FA216E69AB0098CF27 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0F66DDB2173727500058F22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0F66DDA2173727500058F22 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -657,7 +677,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Debug;
 		};
@@ -678,7 +698,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Release;
 		};
@@ -695,7 +715,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Debug;
 		};
@@ -712,7 +732,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Release;
 		};
@@ -729,7 +749,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasmine.SpriteKitWatchFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -746,7 +766,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasmine.SpriteKitWatchFace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

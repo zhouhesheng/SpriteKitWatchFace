@@ -11,43 +11,92 @@
 NS_ASSUME_NONNULL_BEGIN
 
 typedef enum : NSUInteger {
-    ThemeHermesOriginal,
-    ThemeHermesOriginal4,
-    ThemeHermesOriginal1,
-    ThemeHermesOriginalOrange,
-    ThemeHermesOriginalOrange4,
-    ThemeHermesOriginalOrange1,
-    ThemeHermesClassic,
-    ThemeHermesClassic4,
-    ThemeHermesClassic1,
-    ThemeHermesClassicOrange,
-    ThemeHermesClassicOrange4,
-    ThemeHermesClassicOrange1,
-    ThemeHermesRoma,
-    ThemeHermesRoma4,
-    ThemeHermesRoma1,
-    ThemeHermesRomaOrange,
-    ThemeHermesRomaOrange4,
-    ThemeHermesRomaOrange1,
-    ThemeHermesPink,
-    ThemeRoyal,
-    
-    
-    ThemeMAX,
+	ThemeHermesPink,
+	ThemeHermesOrange,
+	ThemeNavy,
+	ThemeTidepod,
+	ThemeBretonnia,
+	ThemeNoir,
+	ThemeContrast,
+	ThemeVictoire,
+	ThemeLiquid,
+	ThemeAngler,
+	ThemeSculley,
+	ThemeKitty,
+	ThemeDelay,
+	ThemeDiesel,
+	ThemeLuxe,
+	ThemeSage,
+	ThemeBondi,
+	ThemeTangerine,
+	ThemeStrawberry,
+	ThemePawn,
+	ThemeRoyal,
+	ThemeMarques,
+	ThemeVox,
+	ThemeSummer,
+	ThemeMAX
 } Theme;
 
 typedef enum : NSUInteger {
 	NumeralStyleAll,
 	NumeralStyleCardinal,
-	NumeralStyleNone
+	NumeralStyleNone,
+	NumeralStyleMAX
 } NumeralStyle;
 
 typedef enum : NSUInteger {
 	TickmarkStyleAll,
 	TickmarkStyleMajor,
 	TickmarkStyleMinor,
-	TickmarkStyleNone
+	TickmarkStyleStackMajor,
+	TickmarkStyleNone,
+	TickmarkStyleMAX
 } TickmarkStyle;
+
+typedef enum : NSUInteger {
+	FaceStyleRound,
+	FaceStyleRectangular,
+	FaceStyleMAX
+} FaceStyle;
+
+typedef enum : NSUInteger {
+	ColorRegionStyleNone,
+	ColorRegionStyleDynamicDuo,
+	ColorRegionStyleHalf,
+	ColorRegionStyleCircle,
+	ColorRegionStyleRing,
+	ColorRegionStyleMAX
+} ColorRegionStyle;
+
+typedef enum : NSUInteger {
+	TickmarkShapeRectangular,
+	TickmarkShapeCircular,
+	TickmarkShapeTriangular,
+	TickmarkShapeMAX
+} TickmarkShape;
+
+typedef enum : NSUInteger {
+	DateStyleNone,
+	DateStyleDay,
+	DateStyleDate,
+	DateStyleDayDate,
+	DateStyleMAX
+} DateStyle;
+
+typedef enum : NSUInteger {
+	DateQuadrantRight,
+	DateQuadrantBottom,
+	DateQuadrantLeft,
+	DateQuadrantTop,
+	DateQuadrantMAX
+} DateQuadrant;
+
+typedef enum : NSUInteger {
+	CenterDiscStyleNone,
+	CenterDiscStyleEnabled,
+	CenterDiscStyleMAX,
+} CenterDiscStyle;
 
 @interface FaceScene : SKScene <SKSceneDelegate>
 
@@ -56,6 +105,13 @@ typedef enum : NSUInteger {
 @property Theme theme;
 @property NumeralStyle numeralStyle;
 @property TickmarkStyle tickmarkStyle;
+@property TickmarkShape majorTickmarkShape;
+@property TickmarkShape minorTickmarkShape;
+@property FaceStyle faceStyle;
+@property ColorRegionStyle colorRegionStyle;
+@property DateStyle dateStyle;
+@property DateQuadrant dateQuadrant;
+@property CenterDiscStyle centerDiscStyle;
 
 @property SKColor *colorRegionColor;
 @property SKColor *faceBackgroundColor;
@@ -66,21 +122,23 @@ typedef enum : NSUInteger {
 @property SKColor *majorMarkColor;
 @property SKColor *minorMarkColor;
 @property SKColor *textColor;
-@property SKColor *dateColor;//新增日期颜色(by wusaul)
 
 @property SKColor *alternateMajorMarkColor;
 @property SKColor *alternateMinorMarkColor;
 @property SKColor *alternateTextColor;
-@property SKColor *alternateDateColor;//新增日期颜色(by wusaul)
 
-@property BOOL useProgrammaticLayout;
-@property BOOL useRoundFace;
+@property NSString *monogram;
+
+@property BOOL useBackgroundImageOverlay;
 @property BOOL useMasking;
-@property BOOL showDateoriginal;//新增日期字体(by twd)
-@property BOOL showDateclassic;//新增日期字体(by twd)
-@property BOOL showDateroma;//新增日期字体(by twd)
+
+@property BOOL showLogo;
 
 @property CGSize faceSize;
+
+@property CGFloat majorTickHeight;
+@property CGFloat majorTickWidth;
+@property CGFloat minorTickHeight;
 
 @end
 
