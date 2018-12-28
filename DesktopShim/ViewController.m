@@ -14,8 +14,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	[[NSUserDefaults standardUserDefaults] registerDefaults:@{@"Theme":@(ThemeMarques)}];
-
+    [[NSUserDefaults standardUserDefaults] setInteger:ThemeDiesel forKey:@"Theme"];
     FaceScene *scene = [FaceScene nodeWithFileNamed:@"FaceScene"];
 	
 	scene.camera.xScale = 0.5;

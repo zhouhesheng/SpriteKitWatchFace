@@ -28,10 +28,9 @@
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
 	
-	[[NSUserDefaults standardUserDefaults] registerDefaults:@{@"Theme":@(ThemeMarques)}];
+    [[NSUserDefaults standardUserDefaults] setInteger:ThemeDiesel forKey:@"Theme"];
 
 	FaceScene *scene = [FaceScene nodeWithFileNamed:@"FaceScene"];
-	
 	CGSize currentDeviceSize = [WKInterfaceDevice currentDevice].screenBounds.size;
 	
 	/* Using the 44mm Apple Watch as the base size, scale down to fit */

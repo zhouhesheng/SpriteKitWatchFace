@@ -14,12 +14,10 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
-	[[NSUserDefaults standardUserDefaults] registerDefaults:@{@"Theme":@(ThemeMarques)}];
-	
+    [[NSUserDefaults standardUserDefaults] setInteger:ThemeDiesel forKey:@"Theme"];
 	FaceScene *scene = [FaceScene nodeWithFileNamed:@"FaceScene"];
 	
 	CGSize currentDeviceSize = [UIScreen mainScreen].bounds.size;
-	
 	CGFloat vertWidth = MIN(512, MIN(currentDeviceSize.width, currentDeviceSize.height));
 	
 	/* Using the 44mm Apple Watch as the base size, scale down to fit */

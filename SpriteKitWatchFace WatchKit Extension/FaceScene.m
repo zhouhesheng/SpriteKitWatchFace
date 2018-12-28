@@ -83,12 +83,12 @@ CGFloat workingRadiusForFaceOfSizeWithAngle(CGSize faceSize, CGFloat angle)
 	if (self) {
 		
 		self.faceSize = (CGSize){184, 224};
-
 		self.theme = [[NSUserDefaults standardUserDefaults] integerForKey:@"Theme"];
+
 		self.useBackgroundImageOverlay = NO;
-		self.faceStyle = FaceStyleRound;
+		self.faceStyle = FaceStyleRectangular;
 		self.numeralStyle = NumeralStyleAll;
-		self.tickmarkStyle = TickmarkStyleAll;
+		self.tickmarkStyle = TickmarkStyleMajor;
 		self.majorTickmarkShape = TickmarkShapeRectangular;
 		self.minorTickmarkShape = TickmarkShapeRectangular;
 		
@@ -100,7 +100,7 @@ CGFloat workingRadiusForFaceOfSizeWithAngle(CGSize faceSize, CGFloat angle)
 		self.dateStyle = DateStyleDayDate;
 		self.dateQuadrant = DateQuadrantRight;
 
-		self.monogram = @""; // e.g. 
+		self.monogram = @""; // e.g. 
 		
 		[self refreshTheme];
 		
